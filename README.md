@@ -15,21 +15,25 @@ This project aims to build a model that predicts loan approval outcomes based on
 ### Dataset
 The dataset used for this project includes:
 
+ - Loan ID
+ - Self Employment
  - Cibil Score
- - Total Assets
+ - Residential Assets Value
+ - Commercial Assets Value
+ - Luxury Assets Value
+ - Bank Asset Value
  - Income Annum
  - Number of Dependents
  - Loan Amount
  - Loan Term
  - Education (Graduate / Not Graduate)
- - Target: Approval or Rejection
+ - Target (Loan Status): Approval or Rejection
 
 ### Project Workflow
  - **Data Exploration**: Analyze the data, visualize distributions, and understand feature relationships.
  - **Data Preprocessing**: Handle missing values, outliers, and encode categorical variables.
  - **Feature Engineering**: Extract and select relevant features.
  - **Model Building**: Train various machine learning models and evaluate their performance.
- - **Hyperparameter Tuning**: Optimize the best-performing model.
  - **Evaluation**: Assess the model on test data and interpret results.
 
 ### Model Performance
@@ -42,4 +46,4 @@ The model achieved:
 
 
 License
-This project is licensed under the MIT License. See the LICENSE file for details.
+This project is licensed under the MIT License. See the [LICENSE]() file for details.
